@@ -1,6 +1,8 @@
 const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
+// address taken through the command line e.g node app.js australia
+
 const address = process.argv[2]
 
 if(!address) {
